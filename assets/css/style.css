@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body {
+	background-color: #eee !important;
+	font: 12px/1.5em Arial,Helvetica,Microsoft Yahei,sans-serif;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+	background-color: #65b046 !important;
+	border: none;
+}
+/*.navbar-nav.ullas {
+	font-size: 20px;
+	margin-left: ;
+	margin-right: 110px;
+	font-weight: bold;
+}
+*/
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(255, 255, 255) !important;
+}
+/*.nav-item {
+	padding: 10px;
+	line-height: 23px;
+	border-left: 1px solid;
+    border-left-color: currentcolor;
+    border-left-color: rgba(0,0,0,.08);
+    min-width: 10%;
+}
+*/
+
+ul li {
+	padding: ;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 60px;
+	color: #FFF;
+	border-left: 1px solid;
+	border-left-color: rgba(0,0,0,.08);
+	min-width: 10%;
+}
+
+
+
+.row.bg-search {
+	background-color: white;
+	padding: 4px 13px 11px 10px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+}
+
+.form-control.search {
+	border: none;
+	border-bottom: 1px solid #997d7d66;
+	border-radius: 0;
+}
+.form-control.search:focus{
+	color: #495057;
+	background-color: #fff;
+	outline: 0;
+	border-color: #49505757;
+	box-shadow: none;
+}
+
+.card.grid {
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.06);
+	padding: 6px;
+	border: 1px solid #ededee;
+}
+.img{
+	padding: 10px 10px 2px;
+	padding-bottom: 5px;
+}
+
+.title {
+	border-top: 1px solid #ebebeb;
+
+}
+.title p {
+	margin: 0 auto;
+}
+.title a {
+	text-decoration: none;
+	color: #000;
+}
+.free {
+	color: #6866667d;
+	font-size: 14px;
+}
+.fas.fa-download {
+	float: right;
+	margin-top: -16px;
+}
+.textz {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	line-height: 2em;
+	max-height: 2em;
+}
+
+
+.r-title {
+	border-left: 2px solid #65b046;
+	width: 100%;
+	padding: 0px 0px 0px 9px;
+	height: 22px;
+	line-height: 18px;
+	box-sizing: border-box;
+	margin: 0px 0 10px;
+}
+.textz2 {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 1em;
+	max-height: 1em;
+}
+
+.see_more {
+	float: right;
+	margin-top: -11px;
+	padding-right: 19px;
+	display: block;
+	color: green;
+}
+
+
+.navbar-nav.ullas.ml-auto .nav-item:hover {
+	background: #fff;
+
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: green !important;
+}
+
+.wrapper{
+
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.header{
+
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.aptodo {
+	background-color: #FFD200;
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	font-size: 15px;
+}
+
+.aptodo a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.card.ads {
+	margin: 0 15px;
+}
+
+.sub {
+	height: 90px;
+	display: block;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0,0,0,.24);
+	margin-bottom: 10px;
+}
+
+.sub a.apps {
+	background-color: rgba(232,83,80,.6);
+}
+.sub a.games {
+	background-color: rgba(75,170,211,.6)
+}
+
+.sub a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	height: 100%;
+	width: 100%;
+	font-weight: 500;
+	font-size: 38px;
+	text-transform: capitalize;
+	color: #fff;
+	padding-left: 24px;
+	box-sizing: border-box;
+	background-image: url(../images/link.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.sub a:hover {
+	color: #fff;
+}
+
+
+.sub a span {
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	top: 50%;
+	margin-top: -18px;
+}
+
+.footerWrap {
+	background-color: #222;
+	text-align: center;
+	clear: both;
+}
+
+
+.footerWrap ul li{
+	list-style:none;
+	padding:0 5px 20px;
+	display:inline-block;
+}
+.social {
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.socialcon {
+	position: relative;
+	width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+.socialcon:hover .overlay {
+  opacity: 1;
+}
+.text-icon {
+	color: #808080b5;
+	font-size: 14px;
+	font-weight: 501;
+}
+
+.text-cont {
+	color: #ffffffb5;
+	font-size: 15px;
+	font-weight: 400;
+	float: right;
+	padding-right: 20px;
+}
+.text-abt {
+	color: #ffffffb5;
+	font-size: 15px;
+	font-weight: 400;
+	float: left;
+	padding-left: 22px;
+}
+
+.row.row-cols-4.row-cols-sm-4.row-cols-md-4.row-cols-lg-4.sizes {
+	width: 100%;
+	max-width: 934px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+.copyright {
+	background-color: #fff;
+	color: #888;
+	text-align: center;
+	padding: 20px;
+}
+
+.copyright a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 401;
+}
+
